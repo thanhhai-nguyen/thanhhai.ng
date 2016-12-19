@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>lab6</title>
+<style>
+	ul, li{
+		list-style: none;
+	}
+	.wrap{
+		width: 1000px;
+		margin: 5px 0 0 20px;
+		background-color: #0384CE;
+		border-radius: 10px 10px 0 0;
+		padding: 0px;
+		height: 40px;
+		position: relative;
+	}
+	.wrap ul{
+		margin: 0;
+		padding: 0;
+		font-size: 18px;
+		color:#FFF;
+	}
+	.wrap li{
+		display:inline-block;
+		position: relative;
+    	text-align: center;
+		padding: 10px 28px 0 0px;
+		height: 30px;
+	}
+	.wrap li:first-child a{
+		color: #F7D368;
+	}
+	.wrap>ul>li:first-child{
+		border-radius: 10px 0 0 0;
+		padding-left: 8px;
+	}
+	.wrap ul ul li{
+		display:block;
+		height: auto;
+		line-height: 1.1em;
+		padding: 10px 15px;
+		width: 175px;
+		color: #FFF;
+		font-size: 16px;
+		text-align: left;
+		font-weight: normal;
+	}
+	.submenu{
+		position: absolute;
+		background: #135784;
+		width: auto;
+		z-index: 99;
+		width: 170px;
+		top: 40px;
+		padding-bottom: 15px;
+		display: none;
+	}
+	a{
+		text-decoration:none;
+		color:#FFF;
+	}
+	.wrap>ul>li:hover{
+		background-color: #135784;
+	}
+	.wrap>ul>li:hover a{
+		color:#F7D368;
+	}
+	.wrap ul li:hover ul{
+		display: none;
+	}
+	.footer{
+		background-color:#135784;
+		border-radius: 0px 0px 15px 15px;
+		display:block;
+		height: 80px;
+		width: 1000px;
+		margin-left: 20px
+	}
+	.footer-p{
+		font-size:20px;
+		font-weight:bold;
+		color:#FFF;
+		float:left;
+		margin: 12px 20px;
+		line-height: 130%;
+		text-align: left;
+		width: 74%;
+	}		
+	.button{
+		padding: 0 7px;
+		font-size: 14px;
+		vertical-align: middle;
+		float: right;
+		height: 48px;
+		display: table;
+		background-color: #FFBF80;
+		text-align: center;
+		margin: 16px 20px 0 0;
+		border-radius: 8px;
+	}
+	.icon{
+		float:left;
+		padding-top: 5px;
+		width:80px;
+	}
+	.icon img{
+		width: 46px;
+		height: 46px;
+		display:block;
+		transition: width 0.5s linear;
+	}
+	.icon img:hover{
+		width: 75px;
+		cursor: pointer;
+	}
+</style>
+</head>
+
+<body>
+<div style="margin-left: 20px"><img src="Icon/new.png" width="1027"/></div>
+<div class="wrap">
+	<ul>
+    	<li><a href="#">Home</a></li>
+        <li><a href="#">Weight Loss Services</a>
+            <ul class="submenu">
+           	  <li>Menu 1</li>
+           	  <li>Menu 2</li>
+           	  <li>Menu 3</li>
+            </ul>
+        </li>
+        <li><a href="#">Weight Loss Medications</a>           
+           <ul class="submenu">
+           	  <li>Menu 1</li>
+           	  <li>Menu 2</li>
+           	  <li>Menu 3</li>
+            </ul></li>
+        <li><a href="#">About Us</a>
+            <ul class="submenu">
+           	  <li>Menu 1</li>
+           	  <li>Menu 2</li>
+           	  <li>Menu 3</li>
+            </ul>
+        </li>
+        <li><a href="#">Weight Loss Resources</a>
+            <ul class="submenu">
+           	  <li>Menu 1</li>
+           	  <li>Menu 2</li>
+           	  <li>Menu 3</li>
+            </ul>
+        </li>
+        <li><a href="#">Articles</a>
+            <ul class="submenu">
+           	  <li>Menu 1</li>
+           	  <li>Menu 2</li>
+           	  <li>Menu 3</li>
+            </ul>
+        </li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+</script>
+<style>
+.main img{
+	cursor:pointer;
+	margin-top:30px;
+	margin-left:30px;
+	z-index: 1;
+}
+.show{	
+	width:70%;
+	height:60%;
+}
+
+#bigImage{
+	z-index:2;
+	top:50px;
+	left:100px;
+	opacity:1;
+}
+</style>
+<script>
+function click1(){
+	var t= document.getElementById("bigImage");
+	t.innerHTML="<img src='../Images/2.jpg' />";
+}
+
+function click2(){
+	var t= document.getElementById("bigImage");
+	t.innerHTML="<img src='../Images/3.jpg' />";
+}
+
+function click3(){
+	var t= document.getElementById("bigImage");
+	t.innerHTML="<img src='../Images/4.jpg' />";
+}
+
+function click4(){
+	var t= document.getElementById("bigImage");
+	t.innerHTML="<img src='../Images/5.jpg' />";
+}
+/*function change(){
+	var t= document.getElementById("bigImage");
+	var s= document.getElementById("body");
+	t.innerHTML="<img src='../Images/"+".jpg />';
+}*/
+
+</script>
+</head>
+
+<body>
+<div class="main" id="body">
+<img src="../Images/2.jpg" width="247" height="204"  alt="" id="1" onClick="click1()"/>
+<img src="../Images/3.jpg" width="158" height="158"  alt="" id="2" onClick="click2()"/>
+<img src="../Images/4.jpg" width="200" height="200"  alt="" id="3" onClick="click3()"/>
+<img src="../Images/5.jpg" width="200" height="200"  alt="" id="4" onClick="click4()"/>
+</div>
+<div id="bigImage">
+
+</div>
+
+</body>
+</html>

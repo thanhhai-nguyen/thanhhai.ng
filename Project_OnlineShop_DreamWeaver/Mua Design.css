@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ background-image:url(Icon/12653-metal-engraving-1920x1200-abstract-wallpaper.jpg)}
+.font{ font-size:20px; background-color:#CCC}
+th{text-align:left;}
+.red{ color:#F00;}
+.head{ font-size:45px; color:#0F0;}
+.comment{float:left}
+
+.contact{ color:#FA0002; font-size:42px;}

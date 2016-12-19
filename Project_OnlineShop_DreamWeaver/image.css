@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+.cost{ color:#F00; font-size:40px;}
+.text{ font-size:15px;}
+body{background-image:url(Icon/Crysis.jpg)}
+.table{background-color:#FFF; margin-top:100px; font-size:25px}
+
+.icon{ bottom:10px;right:15px; position:fixed ;border-bottom:50px; border-top:50px}
+.button{ float:right;}

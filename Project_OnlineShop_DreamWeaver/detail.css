@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+.detail{text-align:left; font-size:25px; background-color:#FFF; margin-top:40px
+}
+.cost{color:#F00; font-size:40px;}
+
+/* design giay */
+.detail1{text-align:left; font-size:25px; background-color:#FFF; margin-top:100px
+}
+
+.exit{float:right; margin-top:8px}
+
+img:hover{cursor:pointer}

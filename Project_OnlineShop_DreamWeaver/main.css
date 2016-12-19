@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* effect when hover*/
+li:hover > ul {
+  display: block;
+  position: absolute;
+  background-color:#183564;
+  }
+/*color hover text */
+li:hover a{color:#FEB321;}
+/*hover backcolor*/
+ul,li:hover{background-color:#183546}
+/* pop up menu*/
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+}
+/* hide pop up*/
+li ul { display: none; }
+/* nội dung menu*/
+ul li a {
+  display: block;
+  padding: 25px;
+  text-decoration: none;
+  color:#E4E4E4;
+  width:95px;
+}
+/* design menu*/
+#Imenu{
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-top-right-radius:3px;
+	font-size: 18px;
+	font-family: tahoma;
+	float: left;
+	display: block;
+	text-align: center;
+	position: fixed;
+	top: 2px; left:4px;
+	width:99%;
+	cursor: pointer;
+	background-color:#585A57;
+}
+/* logo*/
+.logo{color:#F69332; font-size:50px; font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif; margin-left:15px;} 
+
+.bag{list-style:none;float:right; margin-right:30px; margin-top:10px}
+
+body { background-image:url(Icon/Crysis.jpg);}
+
+.move{background-image:url(Icon/SALE-BUY-MORE-SAVE-MORE.jpg); width:1000px;height:450px; animation-name:abc; animation-iteration-count:infinite;
+animation-duration:9s; margin-top:20px; margin-bottom:30px}
+@keyframes abc{
+	0%{background-image:url(Icon/SALE-BUY-MORE-SAVE-MORE.jpg)}
+	20%{background-image:url(Icon/SALE-BUY-MORE-SAVE-MORE.jpg)}
+	50%{background-image:url(Icon/HomePage-bb2-mpc-20151201.jpg)}
+	100%{background-image:url(Icon/free-shipping-image.jpg)}
+}
+
+.botom{ font-size:30px; color:#FFF}
+.botom2{font-size:20px; color:#FFF}

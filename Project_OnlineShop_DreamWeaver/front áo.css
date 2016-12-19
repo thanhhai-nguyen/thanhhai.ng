@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+/* chinh dau */
+.head{ background-color:#099;
+	border-bottom-right-radius:20px; 
+	border-top-right-radius:20px;
+	padding-left:10px; font-size:20px}
+
+.table{background-color:#CCC;}
+/*chinh ki tu more */
+.more{ font-size:30px; text-align:center; width:200px; background-color:#999;}
+/*effect */
+li{list-style:none;}
+.hover li:hover{background-color:#52BA59; cursor:pointer;}
+
+a{ color:#FF0; text-decoration:none;}
+.align{ margin-top:7%}
